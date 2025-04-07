@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dino1.aspx" />
+    <Content Include="dino10.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +84,13 @@
     </Compile>
     <Compile Include="dino1.aspx.designer.cs">
       <DependentUpon>dino1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dino10.aspx.cs">
+      <DependentUpon>dino10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dino10.aspx.designer.cs">
+      <DependentUpon>dino10.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
