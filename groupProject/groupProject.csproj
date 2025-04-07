@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="dino1.aspx" />
     <Content Include="dino10.aspx" />
+    <Content Include="assets\img\Irritator.jpg" />
+    <Content Include="assets\img\torvosaurus.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
