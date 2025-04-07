@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <img src="\assets\img\Irritator.jpg" width="50" height="100px" />
-    <img src="\assets\img\torvosaurus.jpg" width="50" height="100px"/>
+    <asp:Image ID="img_irritator" runat="server" ImageUrl="~/assets/img/Irritator.jpg" Width="50" Height="100%" />
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/assets/img/torvosaurus.jpg" Width="50" Height="100%" />
+    <asp:Image ID="Image2" runat="server" ImageUrl="~/assets/img/acrotholus.jpg" Width="50" Height="100%" />
 </asp:Content>
