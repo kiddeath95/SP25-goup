@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\acrotholus.jpg" />
+    <Content Include="assets\img\anchiornis.jpg" />
     <Content Include="assets\img\Irritator.jpg" />
     <Content Include="assets\img\torvosaurus.jpg" />
     <Content Include="bin\roslyn\csc.exe" />
