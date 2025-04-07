@@ -70,7 +70,6 @@
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\acrotholus.jpg" />
     <Content Include="dino1.aspx" />
-    <Content Include="dino10.aspx" />
     <Content Include="assets\img\Irritator.jpg" />
     <Content Include="assets\img\torvosaurus.jpg" />
     <Content Include="index.aspx" />
@@ -89,13 +88,6 @@
     </Compile>
     <Compile Include="dino1.aspx.designer.cs">
       <DependentUpon>dino1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="dino10.aspx.cs">
-      <DependentUpon>dino10.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="dino10.aspx.designer.cs">
-      <DependentUpon>dino10.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
