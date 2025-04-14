@@ -6,6 +6,10 @@
     height: 94vh;
 }
 
+nav {
+    width: 100vw;
+}
+
 #container {
     margin: 0;
     padding: 0;
