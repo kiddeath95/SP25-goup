@@ -111,6 +111,7 @@
     <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="Dino1.aspx" />
     <Content Include="dino10info.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="dino.Master.designer.cs">
       <DependentUpon>dino.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Dino1.aspx.cs">
+      <DependentUpon>Dino1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dino1.aspx.designer.cs">
+      <DependentUpon>Dino1.aspx</DependentUpon>
     </Compile>
     <Compile Include="dino10info.aspx.cs">
       <DependentUpon>dino10info.aspx</DependentUpon>
