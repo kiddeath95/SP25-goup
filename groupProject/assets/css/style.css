@@ -1,3 +1,36 @@
 ﻿body {
+    margin: 0;
+    padding: 0;
     background-color: sandybrown;
+    width: 98vw;
+    height: 94vh;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center; 
+}
+
+.linklogo {
+    width: 23vw;
+    height: 98vh;
+    object-fit: cover;
+}
+
+.dino1 {
+    object-position: -300px;
+}
+
+.dino2 {
+    object-position: -400px;
+}
+
+.dino10 {
+    object-position: -550px;
+}
+
+.dino11 {
+    object-position: -250px;
 }

@@ -24,30 +24,30 @@ namespace groupProject
         protected global::System.Web.UI.WebControls.Image img_irritator;
 
         /// <summary>
-        /// Image1 control.
+        /// img_torvo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Image img_torvo;
 
         /// <summary>
-        /// Image2 control.
+        /// img_acro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
+        protected global::System.Web.UI.WebControls.Image img_acro;
 
         /// <summary>
-        /// Image3 control.
+        /// img_anch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
+        protected global::System.Web.UI.WebControls.Image img_anch;
     }
 }

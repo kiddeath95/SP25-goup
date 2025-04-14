@@ -69,9 +69,15 @@
   <ItemGroup>
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\acrotholus.jpg" />
+    <Content Include="assets\img\acrotholus02.jpg" />
     <Content Include="assets\img\anchiornis.jpg" />
+    <Content Include="assets\img\anchiornis02.jpg" />
     <Content Include="assets\img\Irritator.jpg" />
+    <Content Include="assets\img\Irritator02.png" />
     <Content Include="assets\img\torvosaurus.jpg" />
+    <Content Include="assets\img\Torvosaurus02.png" />
+    <Content Include="assets\img\Torvosaurus03.png" />
+    <Content Include="assets\img\torvosaurus04.jpg" />
     <Content Include="bin\roslyn\csc.exe" />
     <Content Include="bin\roslyn\csi.exe" />
     <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
