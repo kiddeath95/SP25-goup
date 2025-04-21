@@ -119,6 +119,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="Dino1.aspx" />
     <Content Include="dino10info.aspx" />
+    <Content Include="dino10quiz.aspx" />
     <Content Include="Dino2.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
@@ -144,6 +145,13 @@
     </Compile>
     <Compile Include="dino10info.aspx.designer.cs">
       <DependentUpon>dino10info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dino10quiz.aspx.cs">
+      <DependentUpon>dino10quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dino10quiz.aspx.designer.cs">
+      <DependentUpon>dino10quiz.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dino2.aspx.cs">
       <DependentUpon>Dino2.aspx</DependentUpon>
