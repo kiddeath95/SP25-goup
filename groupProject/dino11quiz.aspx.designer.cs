@@ -78,22 +78,22 @@ namespace groupProject
         protected global::System.Web.UI.WebControls.RadioButton question3Both;
 
         /// <summary>
-        /// question4StepUp control.
+        /// questionbirds control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton question4StepUp;
+        protected global::System.Web.UI.WebControls.RadioButton questionbirds;
 
         /// <summary>
-        /// question4IceAge control.
+        /// question4dogs control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton question4IceAge;
+        protected global::System.Web.UI.WebControls.RadioButton question4dogs;
 
         /// <summary>
         /// question5Two control.
@@ -123,13 +123,13 @@ namespace groupProject
         protected global::System.Web.UI.WebControls.RadioButton question6Spain;
 
         /// <summary>
-        /// question6Canada control.
+        /// question6China control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton question6Canada;
+        protected global::System.Web.UI.WebControls.RadioButton question6China;
 
         /// <summary>
         /// submitBtn control.
