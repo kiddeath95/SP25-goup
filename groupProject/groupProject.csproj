@@ -119,7 +119,9 @@
     <Content Include="dino10quiz.aspx" />
     <Content Include="dino11.aspx" />
     <Content Include="dino11quiz.aspx" />
+    <Content Include="Dino1Quiz.aspx" />
     <Content Include="Dino2.aspx" />
+    <Content Include="Dino2Quiz.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -166,12 +168,26 @@
     <Compile Include="dino11quiz.aspx.designer.cs">
       <DependentUpon>dino11quiz.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dino1Quiz.aspx.cs">
+      <DependentUpon>Dino1Quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dino1Quiz.aspx.designer.cs">
+      <DependentUpon>Dino1Quiz.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dino2.aspx.cs">
       <DependentUpon>Dino2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Dino2.aspx.designer.cs">
       <DependentUpon>Dino2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dino2Quiz.aspx.cs">
+      <DependentUpon>Dino2Quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dino2Quiz.aspx.designer.cs">
+      <DependentUpon>Dino2Quiz.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
