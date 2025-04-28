@@ -15,7 +15,7 @@
    </style>
   
         <div class =" quiz-container">
-            <h2>Acrotholus Quiz</h2>
+            <h2>Anchinoris quiz</h2>
         <label>1.) what is an Anchiornis </label><br />
         <asp:RadioButton ID="question1d" runat="server" Text="A dinosaur" GroupName="question1" />
         <asp:RadioButton ID="question1c" runat="server" Text="A cat" GroupName="question1" /><br /><br />
@@ -31,9 +31,9 @@
   <asp:RadioButton ID="question3Plants" runat="server" Text="Plants" GroupName="question3" /> 
     <asp:RadioButton ID="question3Both" runat="server" Text="Both" GroupName="question2" /><br /><br />
     
-      <label>4.) What movie put an Acrothoulus in it?</label><br />
-  <asp:RadioButton ID="question4StepUp" runat="server" Text="Step Up" GroupName="question4" />
-  <asp:RadioButton ID="question4IceAge" runat="server" Text="Ice Age" GroupName="question4" /><br /><br />
+      <label>4.) What animal is the Acrothoulus related to?</label><br />
+  <asp:RadioButton ID="questionbirds" runat="server" Text="Birds" GroupName="question4" />
+  <asp:RadioButton ID="question4dogs" runat="server" Text="Dogs" GroupName="question4" /><br /><br />
    
       <label>5.) How many legs does an Acrothoulus have?</label><br />
   <asp:RadioButton ID="question5Two" runat="server" Text="Two" GroupName="question5" />
@@ -41,7 +41,7 @@
    
       <label>6.) Where was the first Acrothoulus found?</label><br />
   <asp:RadioButton ID="question6Spain" runat="server" Text="Spain" GroupName="question6" />
-  <asp:RadioButton ID="question6Canada" runat="server" Text="Canada" GroupName="question6" /><br /><br />
+  <asp:RadioButton ID="question6China" runat="server" Text="China" GroupName="question6" /><br /><br />
    <br />
    
      <asp:Button ID="submitBtn" runat="server" Text="Submit" OnClick="submitBtn_Click" />
