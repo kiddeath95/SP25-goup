@@ -8,15 +8,37 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="~\assets\css\style.css" rel="stylesheet" />
+
+	<style>
+	    .container {
+            display: flex;
+	    }
+
+	    .container > nav > div {
+            width: 100px;
+            text-align: center;
+            display: inline;
+	    }
+	</style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav>
-			<asp:HyperLink NavigateUrl="~/Dino1.aspx" runat="server" Text="Irritator" />
-			<asp:HyperLink NavigateUrl="~/Dino2.aspx" runat="server" Text="Torvosaurus" />
-			<asp:HyperLink NavigateUrl="~/dino10info.aspx" runat="server" Text="Acrotholus" />
-			<asp:HyperLink NavigateUrl="~/Dino11.aspx" runat="server" Text="Anchiornis" />
-        </nav>
+		<div class="container">
+            <nav>
+                <div>
+			        <asp:HyperLink NavigateUrl="~/Dino1.aspx" runat="server" Text="Irritator" />
+                </div>
+                <div>
+			        <asp:HyperLink NavigateUrl="~/Dino2.aspx" runat="server" Text="Torvosaurus" />
+                </div>
+                <div>
+			        <asp:HyperLink NavigateUrl="~/dino10info.aspx" runat="server" Text="Acrotholus" />
+                </div>
+                <div>
+			        <asp:HyperLink NavigateUrl="~/Dino11.aspx" runat="server" Text="Anchiornis" />
+                </div>
+            </nav>
+		</div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
