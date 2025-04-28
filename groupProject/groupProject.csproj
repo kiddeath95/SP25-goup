@@ -120,6 +120,8 @@
     <Content Include="Dino1.aspx" />
     <Content Include="dino10info.aspx" />
     <Content Include="dino10quiz.aspx" />
+    <Content Include="dino11.aspx" />
+    <Content Include="dino11quiz.aspx" />
     <Content Include="Dino2.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
@@ -152,6 +154,20 @@
     </Compile>
     <Compile Include="dino10quiz.aspx.designer.cs">
       <DependentUpon>dino10quiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dino11.aspx.cs">
+      <DependentUpon>dino11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dino11.aspx.designer.cs">
+      <DependentUpon>dino11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dino11quiz.aspx.cs">
+      <DependentUpon>dino11quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dino11quiz.aspx.designer.cs">
+      <DependentUpon>dino11quiz.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dino2.aspx.cs">
       <DependentUpon>Dino2.aspx</DependentUpon>

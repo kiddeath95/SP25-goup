@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/dino.Master" AutoEventWireup="true" CodeBehind="dino10quiz.aspx.cs" Inherits="groupProject.dino10quiz" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/dino.Master" AutoEventWireup="true" CodeBehind="dino11quiz.aspx.cs" Inherits="groupProject.dino11quiz" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-   <style>
+       <style>
  
  .quiz-container {
     background-color: green;
@@ -17,18 +16,17 @@
   
         <div class =" quiz-container">
             <h2>Acrotholus Quiz</h2>
-        <label>1.) Is the Acrothoulus a dinosauar?</label><br />
-        <asp:RadioButton ID="question1Yes" runat="server" Text="Yes" GroupName="question1" />
-        <asp:RadioButton ID="question1No" runat="server" Text="No" GroupName="question1" /><br /><br />
+        <label>1.) what is an Anchiornis </label><br />
+        <asp:RadioButton ID="question1d" runat="server" Text="A dinosaur" GroupName="question1" />
+        <asp:RadioButton ID="question1c" runat="server" Text="A cat" GroupName="question1" /><br /><br />
    
          
-      <label>2.)  How tall is the Acrothoulus?</label><br />
-  <asp:RadioButton ID="question24" runat="server" Text="4 feet" GroupName="question2" />
-  <asp:RadioButton ID="question216" runat="server" Text="16 feet" GroupName="question2" />
-     <asp:RadioButton ID="question238" runat="server" Text="38 feet" GroupName="question2" />
-    <asp:RadioButton ID="question22" runat="server" Text="2 feet" GroupName="question2" /><br /> <br />
+      <label>2.) Is the Anchiornis dinosaur from the late jurassic period?</label><br />
+  <asp:RadioButton ID="question2y" runat="server" Text="Yes" GroupName="question2" />
+  <asp:RadioButton ID="question2n" runat="server" Text="No" GroupName="question2" />
+     ><br /> <br />
 
-      <label>3.) What does the Acrothoulus eat ?</label><br />
+      <label>3.) What does the Anchiornis eat ?</label><br />
   <asp:RadioButton ID="question3Meat" runat="server" Text="Meat" GroupName="question3" />
   <asp:RadioButton ID="question3Plants" runat="server" Text="Plants" GroupName="question3" /> 
     <asp:RadioButton ID="question3Both" runat="server" Text="Both" GroupName="question2" /><br /><br />
@@ -53,5 +51,4 @@
    </div>
    
     
-
 </asp:Content>

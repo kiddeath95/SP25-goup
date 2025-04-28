@@ -7,17 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace groupProject
 {
-	public partial class dino10info : System.Web.UI.Page
+	public partial class dino11quiz : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
 
 		}
-
-        protected void Buttonq1_Click(object sender, EventArgs e)
-        {
-
-            Response.Redirect("dino10quiz.aspx");
-        }
-    }
+	}
 }
