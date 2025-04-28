@@ -10,15 +10,32 @@
     <link href="~\assets\css\style.css" rel="stylesheet" />
 
 	<style>
-	    .container {
-            display: flex;
-	    }
+	
+    .container {
+        width: 100%;
+    }
 
-	    .container > nav > div {
-            width: 100px;
-            text-align: center;
-            display: inline;
-	    }
+    .container nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        h
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .container nav div {
+        text-align: center;
+    }
+
+    .container nav div a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+
 	</style>
 </head>
 <body>

@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="container">
+
 		<asp:HyperLink NavigateUrl="~/Dino1.aspx" runat="server" >
             <asp:Image ID="img_irritator" CssClass="linklogo dino1" runat="server" ImageUrl="~/assets/img/Irritator02.png"  />
         </asp:HyperLink>
