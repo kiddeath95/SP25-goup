@@ -36,9 +36,7 @@ div {
 
 /* Index */
 #container {
-    display: flex;/*
-    justify-content: center;
-    align-items: flex-start;*/
+    display: flex;
 }
 
 .dino-card {
