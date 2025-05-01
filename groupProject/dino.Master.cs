@@ -11,7 +11,10 @@ namespace groupProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Page.AppRelativeVirtualPath.EndsWith("index.aspx", StringComparison.OrdinalIgnoreCase))
+            {
+                NavHolder.Visible = false;
+            }
         }
     }
 }
