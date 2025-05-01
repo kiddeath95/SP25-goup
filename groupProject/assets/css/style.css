@@ -70,6 +70,9 @@ div {
     z-index: 2;
 }
 
+    .dino-card a img {
+        width: 100%;
+    }
 .linklogo {
     position: absolute;
     top: 0;
@@ -88,23 +91,23 @@ div {
     text-align: center;
 }
 
-.top-nav nav {
-    display: flex;
-    justify-content: center;
-    /*gap: 400px;*/
-    gap: 20%;
-}
+    .top-nav nav {
+        display: flex;
+        justify-content: center;
+        /*gap: 400px;*/
+        gap: 20%;
+    }
 
-.top-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    color: #000;
-}
+    .top-nav a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+    }
 
-.top-nav a:hover {
-    text-decoration: underline;
-}
+        .top-nav a:hover {
+            text-decoration: underline;
+        }
 
 .footer {
     width: 100%;
