@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2> Acrothoulus</h2>
+    <div class="container">
+    <h1> Acrothoulus</h1>
     <p>    Acrotholus is an extinct genus of herbivorous ceratopsian dinosaur from the Late Cretaceous period of what is now North America.
         It was discovered in Alberta, Canada in 2008 and was the first dinosaur to be described from the province
         Acrotholus was a small, four-legged, beaked dinosaur with a distinctive skull, reaching up to 1.5 metres (5 feet) in length. It had a large, domed head, with broad, forward-facing horns, and a short, upright neck frill.
@@ -15,5 +16,6 @@
 
     <br />
     
-              <asp:Button ID="Buttonq1" runat="server" Text="Take the Quiz!" OnClick="Buttonq1_Click" />
+              <asp:Button ID="Buttonq1" runat="server"  class="quiz-button" Text="Take the Quiz!" OnClick="Buttonq1_Click" />
+        </div>
 </asp:Content>
