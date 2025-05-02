@@ -18,7 +18,7 @@
                 <nav>
                     <asp:HyperLink NavigateUrl="~/Dino1.aspx" runat="server" Text="Irritator" />
                     <asp:HyperLink NavigateUrl="~/Dino2.aspx" runat="server" Text="Torvosaurus" />
-                    <asp:HyperLink NavigateUrl="~/Dino10.aspx" runat="server" Text="Acrotholus" />
+                    <asp:HyperLink NavigateUrl="~/Dino10info.aspx" runat="server" Text="Acrotholus" />
                     <asp:HyperLink NavigateUrl="~/Dino11.aspx" runat="server" Text="Anchiornis" />
                 </nav>
 		    </div>
